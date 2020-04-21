@@ -20,7 +20,7 @@ class Dog
   end
 
   def self.print_all()
-    print @@all
+    print [pluto, fido, maddy]
   end
 
     def save()
